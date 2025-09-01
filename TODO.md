@@ -1,0 +1,3 @@
+- [ ] Create a N8N automation to create README.md of the task itself.
+- [ ] Automate in some sorf of way the creation of the TEST cases.
+- [ ] Find a way to use more than one language.

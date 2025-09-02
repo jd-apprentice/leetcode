@@ -1,4 +1,9 @@
-.PHONY: new_exercise
+.PHONY: new_exercise execute_exercise
+
+exercise ?= merged-sorted-array
+
+execute_exercise:
+	go run tasks/$(exercise)/main.go
 
 new_exercise:
 	@read -p "Enter exercise name (e.g., two-sum): " exercise_name; \

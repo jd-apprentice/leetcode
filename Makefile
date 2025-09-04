@@ -2,6 +2,9 @@
 
 exercise ?= merged-sorted-array
 
+generate_readme:
+	python3 scripts/leetcode.py $(exercise)
+
 execute_exercise:
 	go run tasks/$(exercise)/main.go
 
